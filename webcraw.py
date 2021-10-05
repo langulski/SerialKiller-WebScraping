@@ -50,9 +50,7 @@ def spider_killer():
             dfs6= dfs6.append(df6)
             frames= [dfs,dfs1,dfs2,dfs3,dfs4,dfs5,dfs6]
             sk_db = pd.concat(frames,axis=1)
+            sk_db.to_csv('sk_db.csv')
         except:
             pass
     return sk_db
-
-sk_db = spider_killer()
-sk_db.to_csv('sk_db.csv')
