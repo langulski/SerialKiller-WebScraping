@@ -26,6 +26,8 @@ def new_numeric_columns(df):
     df['Starting Year of Activity'] = [re.search("^.{0,4}\d+",str(a)).group() for a in df['Years Active:']]
 
 def df_types(df):
-    df.iloc[:, np.r_[41:44,51:91]] = df.iloc[:, np.r_[41:44,51:91]].astype('bool')
+    #removed booled types in order to plot graphs in a easier way using Tableau
+    df.replace({False: 0, True: 1}, inplace=True)
+    # df.iloc[:, np.r_[41:44,51:91]] = df.iloc[:, np.r_[41:44,51:91]].astype('bool')
     df['Confirmed Victims'] = df['Confirmed Victims'].astype(int)
     df['Possible Victims'] = df['Possible Victims'].astype(int)
