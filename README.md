@@ -1,4 +1,4 @@
-<p align="center"><a href="https://imgbb.com/"><img src="https://killer.cloud/images/killer-cloud-logo-plain-xs.png" alt="killer.clound" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a></p>
+<p align="center"><a href="https://imgbb.com/"><img src="https://killer.cloud/images/killer-cloud-logo-plain-xs.png" alt="killer.clound" border="0"></a><br /><a target='_blank' href='https://killer.cloud/'></a></p>
 <h1 align="center">🔎 Project | Data Gathering & Visualization</h>
 
 ## Project Status
@@ -45,7 +45,7 @@ The clound killer have a lot of tables with bool questions, those will be analys
 
 ## Process
 1. Use raw web-scraping to collect data from serial killers around the world and check some stats;<br>
-  <a href="https://killer.cloud/" target="_blank">Web Scraping Source<br></a>
+  <a href="https://killer.cloud/" target='_blank' >Web Scraping Source<br></a>
 2. Filter the killers that killed more than 1 victim;<br>
 3. Clean the data and transform the results;<br>
 4. Store the results on my own database;<br>
@@ -68,7 +68,7 @@ The clound killer have a lot of tables with bool questions, those will be analys
 - Improve the Tableau presentation;
 
 ## Tableau
-<a href="https://public.tableau.com/app/profile/lucas7270/viz/skrevised/story?publish=yes" target="_blank">Tableau Public</a>
+<a href="https://public.tableau.com/app/profile/lucas7270/viz/skrevised/story?publish=yes" target='_blank' >Tableau Public</a>
 
 ## Author
 Lucas Angulski
