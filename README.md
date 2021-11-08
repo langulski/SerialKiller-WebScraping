@@ -24,7 +24,7 @@ To acess complete objective informations click: <a href="https://drive.google.co
 
 ### Specific Objective
 Build a database and a visualization about serial killers :
->What are avg age of a serial killer? <br>
+>What is  the avg age of a serial killer? <br>
 >What are the motives? <br>
 >Does abuse early in life have anything related ?<br>
 
